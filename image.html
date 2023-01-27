@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    
+    <title>Image Search</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <div class="navDiv">
+        <nav>
+            <a id="home" class="navLink" href="index.html">Back to Search</a>
+            <a class="navLink" href="advanced.html">Advanced Search</a>
+        </nav>
+    </div>
+
+    <div class="search-container">
+        
+        <div id="logoDiv">
+            <img class="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
+        </div>
+        
+        <div id="logoSubtext">
+            <span>Images</span>
+        </div>
+
+        <form action="https://www.google.com/search" method="get">
+            
+            <div class="search-field">
+                <svg height="21" viewBox="0 0 21 21" width="21" xmlns="http://www.w3.org/2000/svg" alt="magnifying glass"><g fill="none" fill-rule="evenodd" stroke="#808080" stroke-linecap="round" stroke-linejoin="round"><circle cx="8.5" cy="8.5" r="5" /><path d="m17.571 17.5-5.571-5.5" /></g></svg>
+                <input type="text" name="q">
+            </div>
+            
+            <input type="hidden" name="tbm" value="isch" >
+            <input type="submit" value="Image Search" class="searchButton">
+            
+        </form>
+
+    </div>
+
+</body>
+
+</html>
